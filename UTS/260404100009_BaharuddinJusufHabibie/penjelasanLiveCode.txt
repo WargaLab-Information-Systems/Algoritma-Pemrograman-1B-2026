@@ -1,0 +1,19 @@
+saya membuat variable regular = 40000
+saya membuat variable vip = 75000
+saya membuat variable vvip = 100000
+
+lalu saya membuat perulangan yang berupa for yang maksimal sampai 3 tiket saja
+lalu saya membuat variable tiket yang bersifat dinamis yaitu menginputkan tiket
+
+lalu saya membuat pengkondisian atau pemfilteran tiket 
+jika data yang diinputkan di tiket itu == regular
+maka print berapa harga tiketnya 
+dan menawarkan minuman tambahan dengan menginputkan Y/n
+
+jika data yang diinputkan di tiket itu == vip
+maka print berapa harga tiketnya
+dan mendapat minuman gratis
+
+jika data yang diinputkan di tiket itu == regular
+maka print berapa harga tiketnya 
+dan mendapat minuman gratis
