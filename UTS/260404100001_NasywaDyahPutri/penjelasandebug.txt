@@ -1,0 +1,2 @@
+pada baris yang 18 kurang = jadi simbol = harus 2 untuk membandingkan 
+pada baris terakhir awal nya total_revenue ganti menjadi total_pendapatan karena yang di declare adalah varibel itu
