@@ -1,0 +1,5 @@
+pertama memasukan data
+reguler=
+vip=
+vvip=
+kemudian masukan program perulangan karena jika pelanggan membeli tiket lebih dari satu maka.
