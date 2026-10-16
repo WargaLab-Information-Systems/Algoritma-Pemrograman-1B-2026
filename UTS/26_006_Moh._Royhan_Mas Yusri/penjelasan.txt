@@ -1,0 +1,2 @@
+disini saya menggunakan penyeleksian kondisi yaitu if elif else dan saya juga menggunakan perulangan while true untuk mencari nilai benarnya
+ saya memasukka variabel reguler,vip,dan vvip
