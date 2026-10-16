@@ -1,0 +1,12 @@
+penjelasan mengenai ticket ordering system
+
+awalnya masukkan teksnya regular,vip,dan vvip
+setelah itu buat seolah pelanggan bisa membeli lebih dari stu jenis tiket. gunkan perlangan untuk menambah pesa.
+buat menggunakan while dulu setelah itu input si perulangan yang diatas
+setelah itu menggunakan if elif dan else untuk menginput si mana tiket yang reguler,vip, maupun vvip.
+buat if elif lagi buat diskon 15% sama 10% 
+input nominal uang memaki elif dan else 
+
+
+debugging 
+
