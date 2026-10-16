@@ -1,0 +1,4 @@
+mohon maaf kak tidak ada yang bisa saya jelaskan dikarenakan belum mengerti alur python nya. Nanti akan saya pelajari lebih lagi setelah uts.
+untuk alurnya pertama itu print untuk menampilkan teks "Program Ticket Ordering sistem"
+setelah itu kita bikin kondisi perulang dimana 1 orang bisa membeli lebih dari 1 tiket yang sama 
+lalu tambahkan print untuk memberi keterangan harga 1 tiket reguler = 10000 
