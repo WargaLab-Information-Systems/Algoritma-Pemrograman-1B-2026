@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tugas praktikum modul 2"/>
+        <attribute name="authors" value="DANIL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 06:26:14 PM"/>
+        <attribute name="created" value="REFOSUw7TEFQVE9QLURKRERWODlNOzIwMjYtMTAtMDY7MDk6NTk6MjMgQU07MjY5Nw=="/>
+        <attribute name="edited" value="REFOSUw7TEFQVE9QLURKRERWODlNOzIwMjYtMTAtMDc7MDY6MjY6MTQgUE07MzsyODE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kode, d1, d2, d3, pelacak" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan kode&quot;" newline="True"/>
+            <input variable="kode"/>
+            <assign variable="d1" expression="kode / 100"/>
+            <output expression="d1" newline="True"/>
+            <assign variable="d2" expression="(kode / 10) % 10"/>
+            <output expression="d2" newline="True"/>
+            <assign variable="d3" expression="kode % 10"/>
+            <output expression="d3" newline="True"/>
+            <assign variable="pelacak" expression="d1 * d3"/>
+            <output expression="&quot;nilai pelacak adalah &quot;&amp;pelacak" newline="True"/>
+            <if expression="d2 % 2 == 1">
+                <then>
+                    <assign variable="pelacak" expression="pelacak + 25"/>
+                </then>
+                <else>
+                    <assign variable="pelacak" expression="pelacak - d2"/>
+                </else>
+            </if>
+            <output expression="&quot;perubahan pada tahap pertama &quot;&amp;pelacak" newline="True"/>
+            <if expression="pelacak % 3 == 0">
+                <then>
+                    <assign variable="pelacak" expression="pelacak / 3"/>
+                </then>
+                <else>
+                    <assign variable="pelacak" expression="pelacak * 2"/>
+                </else>
+            </if>
+            <output expression="&quot;perubahan pada tahap kedua &quot;&amp;pelacak" newline="True"/>
+            <if expression="pelacak &gt; 50">
+                <then>
+                    <output expression="&quot;Kategori A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="pelacak &gt; 20">
+                        <then>
+                            <output expression="&quot;Kategori B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;akses ditolak&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="pelacak % 2 == 0">
+                <then>
+                    <output expression="&quot;GENAP&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;GANJIL&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
