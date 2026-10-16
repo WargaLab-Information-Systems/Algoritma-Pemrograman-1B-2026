@@ -1,0 +1,8 @@
+penjelasan saya terkait kode program tersebut adalah
+adanya variabel yang ditambahkan untuk reguler, vip, vvip, beli, total, membercard
+kemudian saya langsung ke perulangan dengan perulangan "while", untuk mencari berapa tiket yang dibeli
+kemudian masuk ke penyeleksian kondisi untuk mengetahui apakah kita mendapat minum gratis atau tidak
+kemudian mencari total harga keseluruhan tiket 
+setelah mengetahui keseluruhan tiket, kita mencari tau apakah pembeli memiliki membercard atau tidak
+bila memiliki membercard maka ia mendapat diskon 15% jika tidak memiliki diskon 10%
+kemudian memasukan uang yg dibayarkan, bila ia memasukan uang kurang dari total, ia akan diminta memasukan uang itu terus hingga melebihi 
