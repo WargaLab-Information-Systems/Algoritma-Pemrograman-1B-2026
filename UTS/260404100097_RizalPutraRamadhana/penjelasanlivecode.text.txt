@@ -1,0 +1,5 @@
+pertama kita menggunakan 3 variable untuk 3 tiket tersebut yakni 
+1. regular : 40.000
+2. vip : 75.000
+3. vvip : 100.000
+selanjutnya kita menggunakan data integer dengan pemanggilan "Masukan tiket : "
