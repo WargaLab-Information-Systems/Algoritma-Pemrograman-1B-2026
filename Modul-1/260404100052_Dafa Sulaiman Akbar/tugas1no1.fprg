@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tugas1no1"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-28 02:27:19 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1WOTYxOFRUOzIwMjYtMDktMjc7MTA6Mjk6MjEgUE07MjgyOQ=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1WOTYxOFRUOzIwMjYtMDktMjg7MDI6Mjc6MTkgUE07MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hargaBuku, jumlahBuku, hargaPulpen, jumlahPulpen, hargaFD, uangBayar, totalBuku, totalPulpen, totalFD, totalSebelumDiskon, diskon, setelahDiskon, pajak, totalBayar, kembalian" type="Integer" array="False" size=""/>
+            <assign variable="hargaBuku" expression="25000"/>
+            <assign variable="jumlahBuku" expression="3"/>
+            <assign variable="hargaPulpen" expression="8000"/>
+            <assign variable="jumlahPulpen" expression="2"/>
+            <assign variable="hargaFD" expression="75000"/>
+            <assign variable="uangBayar" expression="200000"/>
+            <assign variable="totalBuku" expression="hargaBuku * jumlahBuku"/>
+            <assign variable="totalPulpen" expression="hargaPulpen * jumlahPulpen"/>
+            <assign variable="totalFD" expression="hargaFD"/>
+            <assign variable="totalSebelumDiskon" expression="totalBuku + totalPulpen + totalFD"/>
+            <assign variable="diskon" expression="totalSebelumDiskon * 0.10"/>
+            <assign variable="setelahDiskon" expression="totalSebelumDiskon - diskon"/>
+            <assign variable="pajak" expression="setelahDiskon * 0.11"/>
+            <assign variable="totalBayar" expression="setelahDiskon + pajak"/>
+            <assign variable="kembalian" expression="uangBayar - totalBayar"/>
+            <output expression="totalBuku" newline="True"/>
+            <output expression="totalPulpen" newline="True"/>
+            <output expression="totalFD" newline="True"/>
+            <output expression="totalSebelumDiskon" newline="True"/>
+            <output expression="diskon" newline="True"/>
+            <output expression="setelahDiskon" newline="True"/>
+            <output expression="pajak" newline="True"/>
+            <output expression="totalBayar" newline="True"/>
+            <output expression="kembalian" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

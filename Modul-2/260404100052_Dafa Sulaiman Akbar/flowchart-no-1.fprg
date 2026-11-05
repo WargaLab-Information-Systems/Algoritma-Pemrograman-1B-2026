@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart-no-1"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-06 07:21:59 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1WOTYxOFRUOzIwMjYtMTAtMDY7MDU6Mjc6MzcgUE07MjgyNw=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1WOTYxOFRUOzIwMjYtMTAtMDY7MDc6MjE6NTkgUE07MTsyOTM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="password, digit1, digit2, digit3, nilaipelacakawal, nilaipelacaktahap1, nilaiakhir, status" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Password 3 Digit : &quot;" newline="True"/>
+            <input variable="password"/>
+            <assign variable="digit1" expression="password/100"/>
+            <assign variable="digit2" expression="password/10%10"/>
+            <assign variable="digit3" expression="password%10"/>
+            <output expression="&quot;Digit 1: &quot;" newline="True"/>
+            <output expression="digit1" newline="True"/>
+            <output expression="&quot;Digit 2: &quot;" newline="True"/>
+            <output expression="digit2" newline="True"/>
+            <output expression="&quot;Digit 3: &quot;" newline="True"/>
+            <output expression="digit3" newline="True"/>
+            <assign variable="nilaipelacakawal" expression="digit1*digit3"/>
+            <output expression="&quot;Nilai pelacak awal :&quot;" newline="True"/>
+            <output expression="nilaipelacakawal" newline="True"/>
+            <if expression="digit2 % 2 == 1">
+                <then>
+                    <assign variable="nilaipelacaktahap1" expression="nilaipelacakawal + 25"/>
+                </then>
+                <else>
+                    <assign variable="nilaipelacaktahap1" expression="nilaipelacakawal - digit2"/>
+                </else>
+            </if>
+            <output expression="&quot;Nilai pelacak setelah tahap pertama: &quot;" newline="True"/>
+            <output expression="nilaipelacaktahap1" newline="True"/>
+            <if expression="nilaipelacaktahap1 % 3 == 0">
+                <then>
+                    <assign variable="nilaiakhir" expression="nilaipelacaktahap1/3"/>
+                </then>
+                <else>
+                    <assign variable="nilaiakhir" expression="nilaipelacaktahap1*2"/>
+                </else>
+            </if>
+            <output expression="&quot;Nilai pelacak setelah tahap kedua (nilai akhir):&quot;" newline="True"/>
+            <output expression="nilaiakhir" newline="True"/>
+            <if expression="nilaiakhir &gt; 50">
+                <then>
+                    <output expression="&quot;Status password: &quot;" newline="True"/>
+                    <output expression="&quot;Kategori A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nilaiakhir &gt; 20">
+                        <then>
+                            <output expression="&quot;Status password: &quot;" newline="True"/>
+                            <output expression="&quot;Kategori B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Status password: &quot;" newline="True"/>
+                            <output expression="&quot;Password Ditolak&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="nilaiakhir % 2 == 0">
+                <then>
+                    <output expression="&quot;Siklus Genap&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Siklus Ganjil&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
