@@ -1,0 +1,2 @@
+pertama saya membuat variabel yaitu reguler=45000 vip=75000 vvip=100000
+setelah program menyuruh membuat jika pelanggan bisa membeli 2 jenis tiket maka

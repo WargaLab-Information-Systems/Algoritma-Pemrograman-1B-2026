@@ -1,0 +1,8 @@
+bioskop menyediakan 3 jenis tiket yaitu regular = 40000, vip = 75000, vvip = 100000.
+dengan total_pembelian nya dimulai dari 0
+
+kemudian pengguna input jenis tiket dan total tiket nya. perulangan berhenti jika total nya = 0
+
+melakukan kondisi jika jenis nya adalah reguler, tanyakan apakah mau menambah minuman seharga 10.000
+jika iya tambah jika tiak gausah . 
+jika pelanggan vip an vvip gratis minuman
