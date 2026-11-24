@@ -1,0 +1,6 @@
+pertama kita masukkan variabelnya dulu
+lalu inputkan variabel tersebut
+
+selanjuny masukkan perulangan if
+setiap 10000 pembellian reguler mendapaka gratis es teh
+
