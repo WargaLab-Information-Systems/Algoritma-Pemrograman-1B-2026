@@ -1,0 +1,5 @@
+code tersebut menjelaskan mengenai pembelian tiket
+ada 3 jenis tiket yaitu regular, vip, dan vvip
+ketika memasukkan nominal uang 40000, maka tiket yang dibeli yaitu regular, dan akan ada tawaran apakah mau membeli minuman seharga 10000
+kemudian ketika memasukkan nominal uang 75000, maka tiket yang dibeli yaitu vip
+kemudian ketika memasukkan nominal uang 100000, maka tiket yang dibeli yaitu vvip
