@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tugas praktikum"/>
+        <attribute name="authors" value="DANIL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-28 07:10:20 PM"/>
+        <attribute name="created" value="REFOSUw7TEFQVE9QLURKRERWODlNOzIwMjYtMDktMjg7MDc6MDc6MTYgQU07MjcwMg=="/>
+        <attribute name="edited" value="REFOSUw7TEFQVE9QLURKRERWODlNOzIwMjYtMDktMjg7MDc6MTA6MjAgUE07MzsyODE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="banyakBuku, banyakPulpen, BanyakFD, totalHargaBuku, totalHargaPulpen, totalHargaFD, subTotal, diskon, hargaSetelahdiskon, pajak, totalBayar, banyakUang, kembalian" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan banyak buku&quot;" newline="True"/>
+            <input variable="banyakBuku"/>
+            <output expression="&quot;masukkan banyak pulpen&quot;" newline="True"/>
+            <input variable="banyakPulpen"/>
+            <output expression="&quot;masukkan banyak FD&quot;" newline="True"/>
+            <input variable="banyakFD"/>
+            <assign variable="totalHargaBuku" expression="banyakBuku * 25000"/>
+            <output expression="&quot;total harga buku adalah &quot;&amp;totalHargaBuku" newline="True"/>
+            <assign variable="totalHargaPulpen" expression="banyakPulpen * 8000"/>
+            <output expression="&quot;total harga pulpen adalah &quot;&amp;totalHargaPulpen" newline="True"/>
+            <assign variable="totalHargaFD" expression="banyakFD * 75000"/>
+            <output expression="&quot;total harga FD adalah &quot;&amp;totalHargaFD" newline="True"/>
+            <assign variable="banyakUang" expression="200000"/>
+            <output expression="&quot;uang yang dimiliki udin &quot;&amp;banyakUang" newline="True"/>
+            <assign variable="subTotal" expression="totalHargaBuku + totalHargaPulpen + totalHargaFD"/>
+            <output expression="&quot;total harga barang yang dibeli &quot;&amp;subTotal" newline="True"/>
+            <assign variable="diskon" expression="subTotal * 10/100"/>
+            <output expression="&quot;besar diskon adalah &quot;&amp;diskon" newline="True"/>
+            <assign variable="hargaSetelahdiskon" expression="subTotal - diskon"/>
+            <output expression="&quot;harga normal dipotong diskon menjadi &quot;&amp;hargaSetelahdiskon" newline="True"/>
+            <assign variable="pajak" expression="hargaSetelahdiskon * 11/100"/>
+            <output expression="&quot;besar pajak adalah &quot;&amp;pajak" newline="True"/>
+            <assign variable="totalBayar" expression="hargaSetelahdiskon + pajak"/>
+            <output expression="&quot;jadi harga yang harus dibayar udin adalah &quot;&amp;totalBayar" newline="True"/>
+            <assign variable="kembalian" expression="banyakUang - totalBayar"/>
+            <output expression="&quot;uang kembalian yang diterima udin adalah &quot;&amp;kembalian" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
