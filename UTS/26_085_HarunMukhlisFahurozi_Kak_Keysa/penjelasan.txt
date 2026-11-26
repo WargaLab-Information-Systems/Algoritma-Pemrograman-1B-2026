@@ -1,0 +1,10 @@
+26_085_ Harun Mukhlis Fahrurozi
+
+terkait penjelasan nya yaitu untuk langkah awal yaitu 
+kita memasukan jumlah tiket yang kita bel,i dengan pelanggan bisa membeli tiket lebih dari 1 
+lalu kita melakukan kita membuat tambahan variable Y/y untuk tiket yang kita beli 
+dan stelah itu kita memasukan nilai beerulang dengan cara While dan lalu if jika jumlah tiket itu sudah sah itu
+apabila jumlah nilai pada tiket lebih kita bisa memasukan elif yang dimana untuk membuat VIP DAN VVIP untuk tambahan air mineral
+lalu kita membuat hasil akhir yang dimana hasil akhir tersebut jika ia mempunyai mambers card akan mendapatkan diskon 15%
+dan jika ia tidak mempunyai mambers card akan mendapatkann diskon 10% lalu setela itu muncullah hasil akhir 
+dengan total tagian yang harus ia bayar sesuai.
